@@ -1,0 +1,86 @@
+
+.text{
+  color: white;
+  margin-right: 10px;
+  font-family: Sofia Pro;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url("img/bg.svg") center center no-repeat;
+  background-size: cover;
+}
+.btn{
+  height: 30px;
+  width:30px;
+  background: url("img/search.png");
+}
+
+
+input[type="text"] {
+  background-color: transparent!important;;
+  border: 0;
+  border-bottom: solid 1px #f16051;
+  width: 10%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-left: 40%;
+  margin-top:20%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input[type="text"] { 
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #fff !important;
+}
+#input2{
+  margin-left:5%; 
+}
+
+.weather__country{
+  color: #fff;
+  font-size: 50px;
+  font-family: Sofia Pro;
+  font-weight: bold;
+  margin-left:10%;
+  margin-top:-17%;
+}
+.weather__temp{
+  color: #fff;
+  font-size: 100px;
+  margin-left:12%;
+  margin-top: 20%;
+  }
+
+ .weather__humidity{
+  color: #fff;
+  font-size: 20px;
+  font-family: Sofia Pro;
+  margin-left:10%;
+  margin-top:3%;
+ }
+ .weather__humidity1{
+  color: #fff;
+  font-size: 20px;
+  font-weight: lighter;
+ }
+ .weather__desc{
+  color: #fff;
+  font-size: 20px;
+  font-family: Sofia Pro;
+  margin-left:10%;
+ }
+ .weather__desc1{
+  color: #fff;
+  font-size: 20px;
+  font-family: Sofia Pro;
+ 
+ }
